@@ -58,8 +58,8 @@
 
 | Service | Current Usage | Free Tier Limit | Status |
 |---------|--------------|-----------------|--------|
-| AWS Key Management Service | 1 requests | 20000.0 Requests/month | [Green/Yellow/Red] |
-| AWS Glue | 10 requests |  10000.0 Requests/month  | [Green/Yellow/Red] |
+| AWS Key Management Service | 1 requests | 20000.0 Requests/month | - |
+| AWS Glue | 10 requests |  10000.0 Requests/month  | - |
 
 
 ### Notes:
@@ -95,6 +95,7 @@ every unnecessary changes has to be notified. create correct alerts, alarm and b
 
 **Your Answer:**
 [Write your answer here. Explain: Why did you choose this amount? Is it appropriate for your usage? Would you set multiple thresholds?]
+I have set this amount for testing purpose and I donot want it to learn how it works. yes I have set multiple thresholds.
 
 ---
 
@@ -122,8 +123,7 @@ AWS Glue
 - [ ] $20 threshold
 
 **Screenshots (if completed):**
-(screenshots/extra-billing-alerts)
-
+![Multiple thresholds](screenshots/extra-billing-alerts.png)
 ---
 
 ### Challenge 2: CloudTrail Enabled
