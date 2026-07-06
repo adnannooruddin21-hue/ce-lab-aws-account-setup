@@ -1,7 +1,7 @@
 # AWS Account Setup Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date Completed:** [Date]
+**Student Name:** Adnan Nooruddin  
+**Date Completed:** 06-07-2026
 
 ---
 
@@ -11,9 +11,9 @@
 ![MFA Enabled](screenshots/mfa-enabled.png)
 
 ### Notes:
-- Authenticator app used: [Google Authenticator / Microsoft Authenticator / Authy]
-- MFA setup completed successfully: [Yes / No]
-- Backup codes saved: [Yes / No]
+- Authenticator app used: Google Authenticator
+- MFA setup completed successfully: Yes
+- Backup codes saved: No 
 
 ---
 
@@ -31,9 +31,9 @@
 ![SNS Confirmed](screenshots/sns-confirmed.png)
 
 ### Configuration Details:
-- Alert threshold: $[amount]
-- Email confirmed: [Yes / No]
-- Additional thresholds created (bonus): [Yes / No - if yes, list amounts]
+- Alert threshold: $10
+- Email confirmed: Yes 
+- Additional thresholds created (bonus): Yes if yes, 5$, 20$
 
 ---
 
@@ -43,9 +43,9 @@
 ![Account Alias](screenshots/account-alias.png)
 
 ### Account Details:
-- **Account Alias:** [your-alias-here]
-- **Sign-In URL:** `https://[your-alias].signin.aws.amazon.com/console`
-- **Tested successfully:** [Yes / No]
+- **Account Alias:** adnannooruddin-ironhack-bootcamp
+- **Sign-In URL:** `https://adnannooruddin-ironhack-bootcamp.signin.aws.amazon.com/console`
+- **Tested successfully:** No
 
 ---
 
@@ -58,13 +58,13 @@
 
 | Service | Current Usage | Free Tier Limit | Status |
 |---------|--------------|-----------------|--------|
-| EC2 | [X hours / 750 hours] | 750 hours/month | [Green/Yellow/Red] |
-| S3 | [X GB / 5 GB] | 5 GB | [Green/Yellow/Red] |
-| [Other services...] | | | |
+| AWS Key Management Service | 1 requests | 20000.0 Requests/month | [Green/Yellow/Red] |
+| AWS Glue | 10 requests |  10000.0 Requests/month  | [Green/Yellow/Red] |
+
 
 ### Notes:
-- Any services approaching limits? [Yes / No - if yes, which ones?]
-- Any unexpected usage? [Yes / No - if yes, describe]
+- Any services approaching limits? No 
+- Any unexpected usage? No 
 
 ---
 
@@ -73,21 +73,21 @@
 ### 1. Why is MFA important even for a personal learning account?
 
 **Your Answer:**
-[Write your answer here. Consider: What could happen if someone gained access to your account? What damage could they do? What costs could they incur?]
+MFA is very important because it adds extra layer of security to the account. without MFA it is very difficult for hacker to access the account. if someone access the account. it can create services which will cost more and can easily make other services and systems down as well.
 
 ---
 
 ### 2. What would happen if you left your root user unprotected?
 
 **Your Answer:**
-[Write your answer here. Think about: What access does root user have? What could an attacker do? How would you recover?]
+root user has all the access of the account. if attacker gets the access of the root account then he can break the whole infrastructure.
 
 ---
 
 ### 3. How do billing alerts help prevent unexpected charges?
 
 **Your Answer:**
-[Write your answer here. Consider: When do you get notified? What actions can you take? Why is proactive monitoring important?]
+every unnecessary changes has to be notified. create correct alerts, alarm and billing management. proactive monitoring is important because it will help us to react quickly if something goes wrong
 
 ---
 
@@ -101,15 +101,16 @@
 ### 5. What is your account alias and why did you choose it?
 
 **Your Answer:**
-- **Alias:** [your-alias]
-- **Reasoning:** [Why did you choose this name? What makes it memorable and professional?]
+- **Alias:** adnannoorudddin-ironhack-bootcamp
+- **Reasoning:** I choose that because it is meaning full and easy to remember and have reason behind it.
 
 ---
 
 ### 6. What services are you currently using according to the Free Tier dashboard?
 
 **Your Answer:**
-[List the services you're using and their current usage levels. Are you surprised by any usage?]
+AWS Key Management Service
+AWS Glue
 
 ---
 
@@ -118,11 +119,10 @@
 ### Challenge 1: Multiple Billing Alert Thresholds
 
 - [ ] $5 threshold
-- [ ] $25 threshold
-- [ ] $50 threshold
+- [ ] $20 threshold
 
 **Screenshots (if completed):**
-[Add screenshots here]
+(screenshots/extra-billing-alerts)
 
 ---
 
@@ -150,7 +150,7 @@
 
 **What was the most challenging part of this lab?**
 
-[Your answer]
+creating the alarm and selecting the metric
 
 ---
 
@@ -162,7 +162,7 @@
 
 **What security practices will you implement going forward?**
 
-[Your answer]
+I would like to implement alerts on costs and user management and make it more secure.
 
 ---
 
@@ -179,5 +179,5 @@
 
 ---
 
-**Lab Completed By:** [Your Name]  
-**Date:** [Date]
+**Lab Completed By:** Adnan Nooruddin  
+**Date:** 06.07.2026
